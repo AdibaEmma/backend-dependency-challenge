@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component
 private val logger = KotlinLogging.logger {}
 
 @Component
-class InquiryService {
+class InquiryService{
     fun create(inquiry: Inquiry) {
         logger.info {
             "User sent inquiry: $inquiry"
